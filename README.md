@@ -23,13 +23,13 @@
 
 **Defect Streak Detection:** If the opponent defects 3+ times in a row, it retaliates aggressively.
 
-**Pattern Recognition**
+**4. Pattern Recognition**
 
 + Detects alternating patterns (e.g., D-C-D-C), which are common in random opponents.
 
 + If the opponent alternates too much (>10 changes in 15 moves), it exploits them by defecting when they cooperate and cooperating when they defect.
 
-**Controlled Forgiveness**
+**5. Controlled Forgiveness**
 
 + Every 4th move, it forgives a defection (cooperates even if the opponent defected last).
 
